@@ -38,12 +38,17 @@ const vm = new Vue({
                 preserveViewport: false,
                 //homeFillsViewer: true,
                 //showNavigator: true,
-                //debugMode: true,
+                debugMode: true,
                 visibilityRatio: 0.1,
 
                 gestureSettingsMouse : {
                     clickToZoom: false
-                }
+                },
+                visibilityRatio: 1.0,
+                constrainDuringPan: true
+                //panHorizontal: false
+                //minZoomImageRatio: 3
+                //minZoomLevel: 8
                 //fitHorizontally: true
             });
 
